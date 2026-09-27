@@ -15,6 +15,6 @@ what's next and are kept forever at their versioned URL, so a world that pins on
 <script src="https://webspaces.space/run/0.10.0-alpha.2/webspace.js"></script>
 ```
 
-Remember to put [`webspace.service.js`](webspace.service.js) next to your world's HTML when hosting it.
+Put [`webspace.service.1.0.1.js`](https://webspaces.space/webspace.service.1.0.1.js) next to your world's HTML when hosting it.
 
 Engine source is MPL-2.0; see [LICENSE](LICENSE). Built from webspace-engine `8319c0fb2`.
