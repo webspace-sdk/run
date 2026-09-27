@@ -8,10 +8,11 @@ what's next and are kept forever at their versioned URL, so a world that pins on
 
 | Version | URL | What's new |
 |---|---|---|
+| `0.10.0-alpha.2` | https://webspaces.space/run/0.10.0-alpha.2/webspace.js | Night skies (dark sky colors), `webspace.environment.fog`/`wrap` = off for big scenes, `mix-blend-mode`/`opacity` on splats, any CSS transform (`rotateX()` etc.) |
 | `0.10.0-alpha.1` | https://webspaces.space/run/0.10.0-alpha.1/webspace.js | Gaussian splats (`<model src="*.spz\|*.ply\|*.splat">`), Live DOM scripting (`window.webspace`, DOM events for in-world clicks) |
 
 ```html
-<script src="https://webspaces.space/run/0.10.0-alpha.1/webspace.js"></script>
+<script src="https://webspaces.space/run/0.10.0-alpha.2/webspace.js"></script>
 ```
 
 Remember to put [`webspace.service.js`](webspace.service.js) next to your world's HTML when hosting it.
