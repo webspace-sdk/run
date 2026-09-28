@@ -8,13 +8,14 @@ what's next and are kept forever at their versioned URL, so a world that pins on
 
 | Version | URL | What's new |
 |---|---|---|
+| `0.10.0-alpha.5` | https://webspaces.space/run/0.10.0-alpha.5/webspace.js | Emoji objects change with `textContent`; hand tracking and pinch clicks in VR (Quest hands, Vision Pro gaze-and-pinch). |
 | `0.10.0-alpha.4` | https://webspaces.space/run/0.10.0-alpha.4/webspace.js | **Immersive VR** (Quest-class headsets): Enter VR button, `webspace.xr.enterVR()`, thumbstick locomotion, snap turn, controller clicks reach world scripts. |
 | `0.10.0-alpha.3` | https://webspaces.space/run/0.10.0-alpha.3/webspace.js | Readable ids (`id="door"` works), scripts can change text (`label.innerHTML`), shared state reaches late joiners, safer saves. From branch `webspace-opus-driving`. |
 | `0.10.0-alpha.2` | https://webspaces.space/run/0.10.0-alpha.2/webspace.js | Night skies (dark sky colors), `webspace.environment.fog`/`wrap` = off for big scenes, `mix-blend-mode`/`opacity` on splats, any CSS transform (`rotateX()` etc.) |
 | `0.10.0-alpha.1` | https://webspaces.space/run/0.10.0-alpha.1/webspace.js | Gaussian splats (`<model src="*.spz\|*.ply\|*.splat">`), Live DOM scripting (`window.webspace`, DOM events for in-world clicks) |
 
 ```html
-<script src="https://webspaces.space/run/0.10.0-alpha.4/webspace.js"></script>
+<script src="https://webspaces.space/run/0.10.0-alpha.5/webspace.js"></script>
 ```
 
 Put [`webspace.service.1.0.1.js`](https://webspaces.space/webspace.service.1.0.1.js) next to your world's HTML when hosting it.
