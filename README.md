@@ -8,6 +8,7 @@ what's next and are kept forever at their versioned URL, so a world that pins on
 
 | Version | URL | What's new |
 |---|---|---|
+| `0.10.0-alpha.12` | https://webspaces.space/run/0.10.0-alpha.12/webspace.js | Models load from other sites even when served as octet-stream (e.g. the CC0 kit at webspaces.space/kit). |
 | `0.10.0-alpha.11` | https://webspaces.space/run/0.10.0-alpha.11/webspace.js | Crisp transparent labels (fixes a ghosted duplicate line). |
 | `0.10.0-alpha.10` | https://webspaces.space/run/0.10.0-alpha.10/webspace.js | Splat budget on phones and standalone headsets (300k most significant per object). |
 | `0.10.0-alpha.9` | https://webspaces.space/run/0.10.0-alpha.9/webspace.js | Touch taps click world objects (phones and tablets). |
@@ -21,7 +22,7 @@ what's next and are kept forever at their versioned URL, so a world that pins on
 | `0.10.0-alpha.1` | https://webspaces.space/run/0.10.0-alpha.1/webspace.js | Gaussian splats (`<model src="*.spz\|*.ply\|*.splat">`), Live DOM scripting (`window.webspace`, DOM events for in-world clicks) |
 
 ```html
-<script src="https://webspaces.space/run/0.10.0-alpha.11/webspace.js"></script>
+<script src="https://webspaces.space/run/0.10.0-alpha.12/webspace.js"></script>
 ```
 
 Put [`webspace.service.1.0.1.js`](https://webspaces.space/webspace.service.1.0.1.js) next to your world's HTML when hosting it.
